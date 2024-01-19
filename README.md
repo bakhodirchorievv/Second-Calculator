@@ -1,1 +1,1 @@
-https://github.io.bakhodirchorievv/Second-Calculator
+bakhodirchorievv.github.io/Second-Calculator
