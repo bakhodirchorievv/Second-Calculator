@@ -24,6 +24,7 @@ let myBtn = document.querySelector("#myBtn")
 let wrapper = document.querySelector("#wrapper")
 let topText = document.querySelector("#top-text")
 let text = document.querySelectorAll("p")
+let numbers = document.querySelectorAll(".numbers")
 
 // BTN EFFECTS
 myBtn.addEventListener("click", function() {
@@ -34,12 +35,20 @@ myBtn.addEventListener("click", function() {
         content.style.color = "black"
         topText.style.color = "black"
         content.style.backgroundColor = "white"
+        myBtn.style.backgroundColor = "white"
+        for (let i = 0; i < numbers.length; i++) {
+            numbers[i].style.backgroundColor = "white"
+        }
     } else {
         myBtn.textContent = "Light Mode"
         wrapper.style.backgroundColor = "rgba(0, 0, 0, 0.4)"
         content.style.color = "white"
         topText.style.color = "white"
         content.style.backgroundColor = "black"
+        myBtn.style.backgroundColor = "grey"
+        for (let i = 0; i < numbers.length; i++) {
+            numbers[i].style.backgroundColor = "grey"
+        }
     }
 
 })

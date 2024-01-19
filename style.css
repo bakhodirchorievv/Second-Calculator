@@ -19,6 +19,11 @@ body {
     margin-top: 3%;
     width: 400px;
     font-family: inherit;
+    background-color: white;
+    cursor: pointer;
+    padding: 2px 0;
+    font-weight: bold;
+    border: 1px solid rgba(255, 255, 255, 0.4);
 }
 .wrapper-child {
     display: grid;
@@ -34,6 +39,10 @@ p {
     margin-top: 2px;
     user-select: none;
     font-size: 2rem;
+    cursor: pointer;
+}
+.numbers{
+    background-color: white;
 }
 p:hover {
     filter: brightness(0.9);
